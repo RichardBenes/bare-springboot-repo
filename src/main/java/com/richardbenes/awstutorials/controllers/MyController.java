@@ -10,6 +10,6 @@ public class MyController {
 
     @GetMapping("/home1")
     ResponseEntity<?> home() {
-        return ResponseEntity.ok("You are home1 at " + Instant.now());
+        return ResponseEntity.ok("You are home at " + Instant.now());
     }    
 }
