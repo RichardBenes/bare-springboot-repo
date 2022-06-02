@@ -1,20 +1,10 @@
-# Sample Spring Boot project with AWS S3
+# Sample Spring Boot project
 
-Let's explore how does Spring Boot cooperate with AWS S3.
-
-## 1. Let's add the Spring Boot dependency
-
-First, let's add the Spring Boot dependency according to the [docs](https://docs.spring.io/spring-boot/docs/current/maven-plugin/reference/htmlsingle/).
-Those docs are quite well written.
-
-Now the app can be run with
+It can be run by just typing
 
 ```PowerShell
 mvn spring-boot:run
 ```
 
-And that works even without explicitly
-specifying the `spring-boot-maven-plugin`.
-
-[Here](https://docs.spring.io/spring-boot/docs/current/maven-plugin/reference/htmlsingle/#using.overriding-command-line)
-are instructions on how to specify profiles on a command line or in POM.
+And then opening <http://localhost:8080/home1> should access [this](https://github.com/RichardBenes/bare-springboot-repo/blob/94463d173bc6e0698fdb84cf0499f1e9766453d8/src/main/java/com/richardbenes/awstutorials/controllers/MyController.java#L12)
+endpoint.
