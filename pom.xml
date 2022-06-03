@@ -13,7 +13,7 @@
   <groupId>com.richardbenes.awstutorials</groupId>
   <artifactId>spring-boot-and-s3</artifactId>
   <version>1.0-SNAPSHOT</version>
-
+  <packaging>jar</packaging>
   <name>spring-boot-and-s3</name>
 
   <properties>
